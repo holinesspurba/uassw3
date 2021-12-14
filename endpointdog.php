@@ -18,7 +18,6 @@ foreach($allSubject as $subjek) {
     $id[$i] = $newrdf->get($subjek,'efo:id');
     $description[$i]  = $newrdf->get($subjek,'dc:description');
     $age[$i]    = $newrdf->get($subjek,'foaf:age');
-    $country[$i]    = $newrdf->get($subjek,'efo:country');
     $status[$i]    = $newrdf->get($subjek,'foaf:status');
     $image[$i]    = $newrdf->get($subjek,'foaf:image');
     $i++;
